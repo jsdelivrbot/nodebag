@@ -1,0 +1,68 @@
+
+
+.alertContainter{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px !important;
+   margin-left: 0px !important;
+    width: 750px;
+    background-color: #e9f7fd;
+    padding-top: 16px;
+    padding-left: 64px;
+    padding-bottom: 16px;
+    border: 1px solid #29AAE1;
+
+}
+
+
+.alertContainter  .title{
+    color:#666666;
+    font-size: 12pt;
+}
+
+.alertContainter  .alertMessage{
+    color:#888888;
+    font-size: 14px;
+    padding-top: 14px;
+    line-height: 24px;
+    margin-top: -5px;
+}
+
+.alert-close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    float: right;
+    font-size: 20px;
+    color: #666666;
+    opacity: 0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}
+.alert-icon {
+    height: 28px;
+    width: 28px;
+    display: block;
+    position: absolute;
+    padding: 0;
+    left: 20px;
+    top: 50%;
+    margin-top: -14px;
+    float: right;
+    font-size: 28px;
+    color:#2db6f4;
+    opacity: 0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}
+
+.alert-close-button:hover,
+.alert-close-button:focus{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.4;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    filter: alpha(opacity=40);
+}

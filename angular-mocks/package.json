@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-mocks@=1.5.8",
+        "scope": null,
+        "escapedName": "angular-mocks",
+        "name": "angular-mocks",
+        "rawSpec": "=1.5.8",
+        "spec": "1.5.8",
+        "type": "version"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_cnpm_publish_time": 1469201463234,
+  "_from": "angular-mocks@1.5.8",
+  "_id": "angular-mocks@1.5.8",
+  "_inCache": true,
+  "_location": "/angular-mocks",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular-mocks-1.5.8.tgz_1469201463009_0.10877978429198265"
+  },
+  "_npmUser": {
+    "name": "angularcore",
+    "email": "angular-core+npm@google.com"
+  },
+  "_npmVersion": "2.15.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-mocks@=1.5.8",
+    "scope": null,
+    "escapedName": "angular-mocks",
+    "name": "angular-mocks",
+    "rawSpec": "=1.5.8",
+    "spec": "1.5.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/angular-mocks/-/angular-mocks-1.5.8.tgz",
+  "_shasum": "2e9399056669f286a681396bc35ae0d7c5c70d16",
+  "_shrinkwrap": null,
+  "_spec": "angular-mocks@=1.5.8",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "description": "AngularJS mocks for testing",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2e9399056669f286a681396bc35ae0d7c5c70d16",
+    "size": 27486,
+    "noattachment": false,
+    "tarball": "http://snpm.cnsuning.com/angular-mocks/-/angular-mocks-1.5.8.tgz"
+  },
+  "gitHead": "482eefcf6b03057c5fcddb9750e460f458ee3487",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-mocks": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "mocks",
+    "testing",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "angular-mocks.js",
+  "maintainers": [
+    {
+      "name": "angularcore",
+      "email": "angular-core+npm@google.com"
+    },
+    {
+      "name": "petebd",
+      "email": "pete@bacondarwin.com"
+    }
+  ],
+  "name": "angular-mocks",
+  "optionalDependencies": {},
+  "publish_time": 1469201463234,
+  "readme": "# packaged angular-mocks\n\nThis repo is for distribution on `npm` and `bower`. The source for this module is in the\n[main AngularJS repo](https://github.com/angular/angular.js/tree/master/src/ngMock).\nPlease file issues and pull requests against that repo.\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n### npm\n\n```shell\nnpm install angular-mocks\n```\n\nYou can `require` ngMock modules:\n\n```js\nvar angular = require('angular');\nangular.module('myMod', [\n  require('angular-animate'),\n  require('angular-mocks/ngMock'),\n  require('angular-mocks/ngAnimateMock')\n]);\n```\n\n### bower\n\n```shell\nbower install angular-mocks\n```\n\nThe mocks are then available at `bower_components/angular-mocks/angular-mocks.js`.\n\n## Documentation\n\nDocumentation is available on the\n[AngularJS docs site](https://docs.angularjs.org/guide/unit-testing).\n\n## License\n\nThe MIT License\n\nCopyright (c) 2010-2015 Google, Inc. http://angularjs.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.8"
+}

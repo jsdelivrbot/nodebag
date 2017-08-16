@@ -1,0 +1,14 @@
+
+select2是对jquery插件[select2](https://select2.github.io/)的一个封装。
+这里的select2是一个attribute指令，直接使用在`<select>`标签中。
+
+#### 使用方法
+
+select2指令的使用方式：`<select select2="option" select-model="selectModel" ng-model="ngModel" multiple></select>`
+指令直接作用于select标签上， 分析当期select标签的内容，生成select2组件内容。  
+
+select2插件本身主要通过对select标签进行option配置：`$(selectSelector).select2(option)`。  
+
+但是在ng中使用时，可能会与ng处理过的select标签产生冲突：ng会对包含ng-model和ng-options指令的select做处理，根据ng-model和ng-options的值，修改select下的option内容。而select2插件主要是根据option来展示备选内容。如果option被ng处理过，可能会导致select2展示出来的备选项与预期的不一致。
+
+如果在使用过程中，发现下拉列表备选框的内容与预期不一致，可以考虑使用`select-model`替换`ng-model`使用。

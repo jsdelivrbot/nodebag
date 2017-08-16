@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-check-radio@>=0.0.2",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-check-radio",
+        "name": "@suning/cd-check-radio",
+        "rawSpec": ">=0.0.2",
+        "spec": ">=0.0.2",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-check-radio@>=0.0.2",
+  "_id": "@suning/cd-check-radio@0.0.2",
+  "_inCache": true,
+  "_location": "/@suning/cd-check-radio",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-check-radio@>=0.0.2",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-check-radio",
+    "name": "@suning/cd-check-radio",
+    "rawSpec": ">=0.0.2",
+    "spec": ">=0.0.2",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-check-radio/-/cd-check-radio-0.0.2.tgz",
+  "_shasum": "9458ff7bf14b5c52d6e5dd0ba66538fdad5d21f2",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-check-radio@>=0.0.2",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "cd iframe directive for debhe",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "9458ff7bf14b5c52d6e5dd0ba66538fdad5d21f2",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-check-radio/-/cd-check-radio-0.0.2.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-check-radio",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& copy .\\src\\*.css .\\lib\\",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.2"
+}

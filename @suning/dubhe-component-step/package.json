@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-step@^1.0.1",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-step",
+        "name": "@suning/dubhe-component-step",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-step@>=1.0.1 <2.0.0",
+  "_id": "@suning/dubhe-component-step@1.0.1",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-step",
+  "_nodeVersion": "4.5.0",
+  "_npmUser": {},
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/dubhe-component-step@^1.0.1",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-step",
+    "name": "@suning/dubhe-component-step",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-step/-/dubhe-component-step-1.0.1.tgz",
+  "_shasum": "495976693cc3ca6446e27d635b0553c31461a244",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-step@^1.0.1",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "qiaoliang"
+  },
+  "dependencies": {},
+  "description": "suning angular web frame dubhe component step",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "495976693cc3ca6446e27d635b0553c31461a244",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-step/-/dubhe-component-step-1.0.1.tgz"
+  },
+  "keywords": [
+    "angular",
+    "dubhe",
+    "step"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-step",
+  "optionalDependencies": {},
+  "readme": "#### 实例\r\n\r\n```html\r\n// html-template\r\n<div class=\"step-content\">\r\n  <sn-step step-can-back=\"true\" step-style=\"mini\" step-name=\"name2\" current-step=\"cStep2\" current-fn=\"curr2\"></sn-step>\r\n</div>\r\n<a class=\"btn btn-primary\" ng-click=\"nextStep2()\">下一步</a>\r\n\r\n// controller\r\n$scope.name2 = ['设置登录名','验证账号','注册成功'];\r\n$scope.cStep2 = 0;\r\n$scope.curr2 = function(currStep) {\t\t\t\r\n  console.log(currStep);\t\r\n  $scope.cStep2 = currStep;\t\t\r\n};\r\n$scope.nextStep2 = () => {\r\n  $scope.cStep2 = Math.min(2, ++$scope.cStep2);\r\n};\r\n```\r\n\r\n#### 定义和用法\r\n\r\n步骤进度(snStep)用于页面上显示某一较长任务的进度。snStep有两种展示形态：常规形态和缩略形态。通过属性进行配置\r\n\r\n#### 可配置的属性\r\n\r\n<table class=\"table table-bordered\">\r\n  <tr>\r\n    <th width=\"20%\">属性</th>\r\n    <th width=\"20%\">值</th>\r\n    <th width=\"20%\">适用的标签</th>\r\n    <th width=\"40%\">描述</th>\r\n  </tr>\r\n  <tr>\r\n    <td>* step-name</td>\r\n    <td>字符串数组</td>\r\n    <td>sn-step</td>\r\n    <td>\r\n      step-name=\"['step1', 'step2', 'step3']\" <br>\r\n      本属性决定了step共有几个步骤，每个步骤的名字等信息，为必须配置项\r\n    </td>\r\n  </tr>\r\n  <tr>\r\n    <td>* current-step</td>\r\n    <td>小于 step-name的数字</td>\r\n    <td>sn-step</td>\r\n    <td>\r\n      定义初始化时步骤进度的进行情况：。修改绑定改值的变量，也可以立即让进度进行至对应步骤。<br>\r\n      在current-fn函数中，需要对该绑定值进行重新赋值\r\n    </td>\r\n  </tr>\r\n  <tr>\r\n    <td>step-style</td>\r\n    <td>mini</td>\r\n    <td>sn-step</td>\r\n    <td>步骤进度的形态，默认为每个step上有数字的完整展示。配置该项后，变为缩略形式</td>\r\n  </tr>\r\n  <tr>\r\n    <td>step-can-back</td>\r\n    <td>true/[false]</td>\r\n    <td>sn-step</td>\r\n    <td>进度可否回退。默认为false，置为true时，点击已经执行过的步骤节点，可以回退到该步骤，并触发配置的current-fn函数</td>\r\n  </tr>\r\n  <tr>\r\n    <td>current-fn</td>\r\n    <td>function</td>\r\n    <td>sn-step</td>\r\n    <td>\r\n      当step-can-back配置为true时，需要配置该属性。属性值是function，接受1个参数：点击节点时，该节点的index。\r\n    </td>\r\n  </tr>\r\n</table>",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "rm -rf lib&& mkdir lib&& mkdir lib/step&& cp ./src/step/* ./lib/step&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --step",
+    "start": "npm run dev",
+    "test": "set NODE_ENV=test&& karma start"
+  },
+  "version": "1.0.1"
+}

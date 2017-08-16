@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-echarts@^1.0.1",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-echarts",
+        "name": "@suning/dubhe-component-echarts",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-echarts@>=1.0.1 <2.0.0",
+  "_id": "@suning/dubhe-component-echarts@1.0.2",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-echarts",
+  "_nodeVersion": "6.9.5",
+  "_npmUser": {},
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/dubhe-component-echarts@^1.0.1",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-echarts",
+    "name": "@suning/dubhe-component-echarts",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-echarts/-/dubhe-component-echarts-1.0.2.tgz",
+  "_shasum": "898c93a3928cb1e3ecb5ae9fc9c8b0f4c1225753",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-echarts@^1.0.1",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "qiaoliang"
+  },
+  "dependencies": {
+    "echarts": "=3.1.1"
+  },
+  "description": "suning angular web frame dubhe component echarts",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "898c93a3928cb1e3ecb5ae9fc9c8b0f4c1225753",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-echarts/-/dubhe-component-echarts-1.0.2.tgz"
+  },
+  "keywords": [
+    "angular",
+    "dubhe",
+    "echarts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-echarts",
+  "optionalDependencies": {},
+  "readme": "   echarts是一个attribute指令。是对百度的[echarts插件](http://echarts.baidu.com)进行了简单的angular封装。  \n   使用起来非常简单，主要难度还是在于对echarts的熟练使用上。",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "rm -rf lib&& mkdir lib&& mkdir lib/echarts&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --progress",
+    "start": "npm run dev",
+    "test": "set NODE_ENV=test&& karma start"
+  },
+  "version": "1.0.2"
+}

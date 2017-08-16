@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "babel@=6.3.26",
+        "scope": null,
+        "escapedName": "babel",
+        "name": "babel",
+        "rawSpec": "=6.3.26",
+        "spec": "6.3.26",
+        "type": "version"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_cnpm_publish_time": 1450854726817,
+  "_from": "babel@6.3.26",
+  "_id": "babel@6.3.26",
+  "_inCache": true,
+  "_location": "/babel",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "amasad",
+    "email": "amjad.masad@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "babel@=6.3.26",
+    "scope": null,
+    "escapedName": "babel",
+    "name": "babel",
+    "rawSpec": "=6.3.26",
+    "spec": "6.3.26",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/babel/-/babel-6.3.26.tgz",
+  "_shasum": "7bf8967bd2de7c3645a107080094c2c9df706886",
+  "_shrinkwrap": null,
+  "_spec": "babel@=6.3.26",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "bin": {
+    "babel": "./cli.js",
+    "babel-node": "./cli.js",
+    "babel-external-helpers": "./cli.js"
+  },
+  "dependencies": {},
+  "deprecated": "Babel's CLI commands have been moved from the babel package to the babel-cli package",
+  "description": "Turn ES6 code into readable vanilla ES5 with source maps",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7bf8967bd2de7c3645a107080094c2c9df706886",
+    "size": 1222,
+    "noattachment": false,
+    "tarball": "http://snpm.cnsuning.com/babel/-/babel-6.3.26.tgz"
+  },
+  "homepage": "https://babeljs.io/",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "amasad",
+      "email": "amjad.masad@gmail.com"
+    },
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "jmm",
+      "email": "npm-public@jessemccarthy.net"
+    },
+    {
+      "name": "loganfsmyth",
+      "email": "loganfsmyth@gmail.com"
+    },
+    {
+      "name": "sebmck",
+      "email": "sebmck@gmail.com"
+    },
+    {
+      "name": "thejameskyle",
+      "email": "me@thejameskyle.com"
+    }
+  ],
+  "name": "babel",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "publish_time": 1450854726817,
+  "readme": "# babel\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel"
+  },
+  "scripts": {},
+  "version": "6.3.26"
+}

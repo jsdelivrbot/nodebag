@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-select2@^1.0.0",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-select2",
+        "name": "@suning/dubhe-component-select2",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-select2@>=1.0.0 <2.0.0",
+  "_id": "@suning/dubhe-component-select2@1.0.0",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-select2",
+  "_nodeVersion": "4.5.0",
+  "_npmUser": {},
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/dubhe-component-select2@^1.0.0",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-select2",
+    "name": "@suning/dubhe-component-select2",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-select2/-/dubhe-component-select2-1.0.0.tgz",
+  "_shasum": "320c6da1a5672cf72775254d26686627f3efec72",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-select2@^1.0.0",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "qiaoliang"
+  },
+  "dependencies": {
+    "select2": "=4.0.1"
+  },
+  "description": "suning angular web frame dubhe component select2",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "320c6da1a5672cf72775254d26686627f3efec72",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-select2/-/dubhe-component-select2-1.0.0.tgz"
+  },
+  "keywords": [
+    "angular",
+    "dubhe",
+    "select2"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-select2",
+  "optionalDependencies": {},
+  "readme": "\r\nselect2是对jquery插件[select2](https://select2.github.io/)的一个封装。\r\n这里的select2是一个attribute指令，直接使用在`<select>`标签中。\r\n\r\n#### 使用方法\r\n\r\nselect2指令的使用方式：`<select select2=\"option\" select-model=\"selectModel\" ng-model=\"ngModel\" multiple></select>`\r\n指令直接作用于select标签上， 分析当期select标签的内容，生成select2组件内容。  \r\n\r\nselect2插件本身主要通过对select标签进行option配置：`$(selectSelector).select2(option)`。  \r\n\r\n但是在ng中使用时，可能会与ng处理过的select标签产生冲突：ng会对包含ng-model和ng-options指令的select做处理，根据ng-model和ng-options的值，修改select下的option内容。而select2插件主要是根据option来展示备选内容。如果option被ng处理过，可能会导致select2展示出来的备选项与预期的不一致。\r\n\r\n如果在使用过程中，发现下拉列表备选框的内容与预期不一致，可以考虑使用`select-model`替换`ng-model`使用。",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "rm -rf lib&& mkdir lib&& mkdir lib/select2&& cp ./src/select2/* ./lib/select2&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --select2",
+    "start": "npm run dev",
+    "test": "set NODE_ENV=test&& karma start"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-select-multi@>=0.1.8",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-select-multi",
+        "name": "@suning/cd-select-multi",
+        "rawSpec": ">=0.1.8",
+        "spec": ">=0.1.8",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-select-multi@>=0.1.8",
+  "_id": "@suning/cd-select-multi@0.2.3",
+  "_inCache": true,
+  "_location": "/@suning/cd-select-multi",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-select-multi@>=0.1.8",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-select-multi",
+    "name": "@suning/cd-select-multi",
+    "rawSpec": ">=0.1.8",
+    "spec": ">=0.1.8",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-select-multi/-/cd-select-multi-0.2.3.tgz",
+  "_shasum": "1d176252928dc954f691acb0a1986981497cfed1",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-select-multi@>=0.1.8",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x",
+    "browser-sync": "^2.17.6",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-ejs": "^2.2.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11"
+  },
+  "dist": {
+    "shasum": "1d176252928dc954f691acb0a1986981497cfed1",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-select-multi/-/cd-select-multi-0.2.3.tgz"
+  },
+  "gitHead": "c8701993c068c4935aaa25eb7f1604dadb5ec956",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-select-multi",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "del lib /Q&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& copy .\\src\\*.css .\\lib",
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.3"
+}

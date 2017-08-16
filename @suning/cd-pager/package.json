@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-pager@>=0.0.11",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-pager",
+        "name": "@suning/cd-pager",
+        "rawSpec": ">=0.0.11",
+        "spec": ">=0.0.11",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-pager@>=0.0.11",
+  "_id": "@suning/cd-pager@0.0.12",
+  "_inCache": true,
+  "_location": "/@suning/cd-pager",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-pager@>=0.0.11",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-pager",
+    "name": "@suning/cd-pager",
+    "rawSpec": ">=0.0.11",
+    "spec": ">=0.0.11",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-pager/-/cd-pager-0.0.12.tgz",
+  "_shasum": "fbc3dd88d92d13bbf815ada1cacce4f85ba38c7e",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-pager@>=0.0.11",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x",
+    "browser-sync": "^2.17.6",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-ejs": "^2.2.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11"
+  },
+  "dist": {
+    "shasum": "fbc3dd88d92d13bbf815ada1cacce4f85ba38c7e",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-pager/-/cd-pager-0.0.12.tgz"
+  },
+  "gitHead": "890433468ab468946b57c83748294f640b289c27",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-pager",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "del lib /Q&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& copy .\\src\\*.css .\\lib",
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.12"
+}

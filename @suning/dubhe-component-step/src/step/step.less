@@ -1,0 +1,108 @@
+@import (reference) '../../../../../src/business/style/uxc.less';
+
+@cir-side: 34px;
+@cir-bg: #ccc;
+@cir-text-width: 120px;
+@cir-text-color: @cir-bg;
+
+.step-content{ padding: 20px; }
+.stepS1,.stepS2 { position: relative; }
+.stepS1 {
+  > ul {
+    display: flex;
+    height: 65px;
+    padding-left: 30px;
+    padding-right: 30px; 
+
+    > li {
+      flex: 1;
+      color: @font-white-color;
+      list-style: none;
+      position: relative;
+
+      &:last-of-type {
+        flex: 0;
+      }
+
+      .cir {
+        width: @cir-side;
+        height: @cir-side;
+        line-height: @cir-side;
+        position: relative;
+        font-size: 18px;
+        border-radius: 60%;
+        background: @cir-bg;
+        text-align: center;
+        transition: .4s;
+
+        .text {
+          width: @cir-text-width; 
+          line-height: 18px; 
+          position: absolute; 
+          left: 50%; 
+          margin-left: -@cir-text-width/2; 
+          text-align: center; 
+          font-size: 14px; 
+          color: @cir-text-color; 
+          top: 46px; 
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .act3 {
+          color: @brand-primary;
+        }
+      }
+
+      .act0 {
+        background: @brand-primary;
+      }
+
+      .act1 {
+        background: @brand-primary url(step.png) center no-repeat;
+        cursor: pointer;
+      }
+
+      .lineDef {
+        position: absolute;
+        width: 100%;
+        top: @cir-side / 2;
+        left: @cir-side;
+        padding-right: @cir-side;
+        height: 3px;
+        background: @cir-bg;
+
+        div {
+          width: 0;
+          height: 3px;
+          background: @brand-primary;
+          transition: .07s .25s;
+        }
+      }
+    }
+  }
+}
+
+.stepS2 {
+  > ul > li {
+    width: 170px;
+    line-height: 28px; 
+    float: left; 
+    margin-right: 2px; 
+    color: @font-white-color; 
+    background: @cir-bg; 
+    list-style:none; 
+    text-align: center; 
+    transition:.4s;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .act {
+    background: saturate(@brand-primary, 25%);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-iframe@>=0.0.4",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-iframe",
+        "name": "@suning/cd-iframe",
+        "rawSpec": ">=0.0.4",
+        "spec": ">=0.0.4",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-iframe@>=0.0.4",
+  "_id": "@suning/cd-iframe@0.0.5",
+  "_inCache": true,
+  "_location": "/@suning/cd-iframe",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-iframe@>=0.0.4",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-iframe",
+    "name": "@suning/cd-iframe",
+    "rawSpec": ">=0.0.4",
+    "spec": ">=0.0.4",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-iframe/-/cd-iframe-0.0.5.tgz",
+  "_shasum": "131eaf5125a781f2d8c13b125c542c89a0e9f2b1",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-iframe@>=0.0.4",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "cd iframe directive for debhe",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "131eaf5125a781f2d8c13b125c542c89a0e9f2b1",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-iframe/-/cd-iframe-0.0.5.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-iframe",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.5"
+}

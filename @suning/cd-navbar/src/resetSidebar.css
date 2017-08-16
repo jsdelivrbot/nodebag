@@ -1,0 +1,62 @@
+/***
+reset css for left sidebar start
+***/
+
+cd-navbar sn-menu {
+    float: left;
+}
+
+sn-menu .navbar-menu {
+    background: #2c313f!important;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item {
+    margin-top: 10px!important;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item {
+    margin-top: 10px!important;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item .sn-menu-item2>a,
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item>a {
+    color: #9ba3b1!important;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item>ul>li.sn-menu-item2>a {
+    padding: 10px 15px 10px 59px;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item>a>t>i {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item .sn-menu-item2>a:hover,
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item>a:hover {
+    color: #ffffff!important;
+    background-color: #4e5464!important;
+}
+
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item.active .sn-menu-item2.active>a,
+.sn-menu.vertical>.navbar-menu>ul.nav.navbar-nav>.sn-menu-item.active:not(.hasChildren)>a {
+    color: #3ddba8!important;
+    background: #2c313f;
+    border-right: 0px solid #3a8cbb!important;
+}
+
+sn-menu .navbar-menu {
+    width: 200px!important;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: #2c313f!important;
+    border-color: #2c313f!important;
+}
+
+
+/***
+reset css for left sidebar end
+***/

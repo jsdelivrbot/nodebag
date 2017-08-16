@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/alert/modal.js"],"names":["app"],"mappings":";;;;AAAA;;;;AACA;;;;;;kBAEe,eAAO;AACrB,6BAAaA,GAAb;AACA,8BAAcA,GAAd;AACA,C","file":"modal.js","sourcesContent":["import alertService from './alertService';\r\nimport dialogService from './dialogService';\r\n\r\nexport default app => {\r\n\talertService(app);\r\n\tdialogService(app);\r\n}"]}

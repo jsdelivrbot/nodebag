@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "sn-dubhe-component-alert@^1.0.0",
+        "scope": null,
+        "escapedName": "sn-dubhe-component-alert",
+        "name": "sn-dubhe-component-alert",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "sn-dubhe-component-alert@>=1.0.0 <2.0.0",
+  "_id": "sn-dubhe-component-alert@1.0.0",
+  "_inCache": true,
+  "_location": "/sn-dubhe-component-alert",
+  "_nodeVersion": "4.6.0",
+  "_npmUser": {},
+  "_npmVersion": "3.0.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "sn-dubhe-component-alert@^1.0.0",
+    "scope": null,
+    "escapedName": "sn-dubhe-component-alert",
+    "name": "sn-dubhe-component-alert",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/sn-dubhe-component-alert/-/sn-dubhe-component-alert-1.0.0.tgz",
+  "_shasum": "452da32cdd7888d4f59d292e87cedcc5bfa15e42",
+  "_shrinkwrap": null,
+  "_spec": "sn-dubhe-component-alert@^1.0.0",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "qiaoliang"
+  },
+  "dependencies": {},
+  "description": "suning angular web frame dubhe component alert",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "452da32cdd7888d4f59d292e87cedcc5bfa15e42",
+    "tarball": "http://snpm.cnsuning.com/sn-dubhe-component-alert/-/sn-dubhe-component-alert-1.0.0.tgz"
+  },
+  "keywords": [
+    "angular",
+    "dubhe",
+    "alert"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "sn-dubhe-component-alert",
+  "optionalDependencies": {},
+  "readme": "#### 实例\r\n\r\n```html\r\n<sn-alert \r\n    title=\"每次只允许添加一种类型的主机，如添加多种类型的主机，需要分批操作\"\r\n    content=\"对cbt_client和external_client不需要做初始化环境的操作。对cbt_client和external_client不需要做初始化环境的操作.\"\r\n></sn-alert>\r\n\r\n<sn-alert \r\n    title=\"这儿是常规的可能会重复提醒文字\"\r\n    content ='您可以<a href=http://wwww.suning.com>申请授权</a>'\r\n></sn-alert>\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "rm -rf lib&& mkdir lib&& mkdir lib/alert&& cp ./src/alert/* ./lib/alert&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --step",
+    "start": "npm run dev",
+    "test": "set NODE_ENV=test&& karma start"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+.sncd-ng-tip {
+    position: fixed;
+    border: 1px solid #999;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 3px;
+    display: block;
+}
+
+.sncd-ng-tip.hidden {
+    display: block;
+}

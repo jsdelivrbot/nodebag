@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-daterangepicker@^1.0.0",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-daterangepicker",
+        "name": "@suning/dubhe-component-daterangepicker",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "D:\\saturn_V2.0.0\\saturn\\saturn-web\\src\\main\\frontsource"
+    ],
+    [
+      {
+        "raw": "@suning/dubhe-component-daterangepicker@^1.0.0",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-daterangepicker",
+        "name": "@suning/dubhe-component-daterangepicker",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-daterangepicker@^1.0.0",
+  "_id": "@suning/dubhe-component-daterangepicker@1.0.2",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-daterangepicker",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "4.5.0",
+  "_phantomChildren": {
+    "jquery": "2.1.4",
+    "moment": "2.11.2"
+  },
+  "_requested": {
+    "raw": "@suning/dubhe-component-daterangepicker@^1.0.0",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-daterangepicker",
+    "name": "@suning/dubhe-component-daterangepicker",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-daterangepicker/-/dubhe-component-daterangepicker-1.0.2.tgz",
+  "_shasum": "95f3194da9d78d70b259fffe3b3e9312d14f3795",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-daterangepicker@^1.0.0",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "17030517"
+  },
+  "dependencies": {
+    "bootstrap-daterangepicker": "=2.1.22"
+  },
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "245b4bd7f82a4f0485ded5520e4d3d3a65ad57fb",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-daterangepicker/-/dubhe-component-daterangepicker-1.0.0.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-daterangepicker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

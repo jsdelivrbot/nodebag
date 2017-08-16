@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-perm@>=0.0.22",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-perm",
+        "name": "@suning/cd-perm",
+        "rawSpec": ">=0.0.22",
+        "spec": ">=0.0.22",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-perm@>=0.0.22",
+  "_id": "@suning/cd-perm@0.0.24",
+  "_inCache": true,
+  "_location": "/@suning/cd-perm",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "4.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-perm@>=0.0.22",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-perm",
+    "name": "@suning/cd-perm",
+    "rawSpec": ">=0.0.22",
+    "spec": ">=0.0.22",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-perm/-/cd-perm-0.0.24.tgz",
+  "_shasum": "70f51d6ce673acb73efdee4107af76817ccb8440",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-perm@>=0.0.22",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {
+    "@suning/dubhe-component-http": ">=0.0.41"
+  },
+  "description": "cd permission",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "70f51d6ce673acb73efdee4107af76817ccb8440",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-perm/-/cd-perm-0.0.24.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-perm",
+  "optionalDependencies": {},
+  "readme": "cd项目权限控制\r\n\r\n# Usage\r\n\r\n1 安装snpm依赖包\r\n\r\n```bash\r\n$ npm install @suning/cd-perm --save\r\n```\r\n\r\n2 修改snCommon.js文件\r\n\r\n```js\r\nimport permission from '@suning/cd-perm';\r\n\r\nINCLUDE_ALL_MODULES(\r\n    [\r\n        ...\r\n        permission\r\n    ],\r\n    app);\r\n```\r\n\r\n3 修改需要设置权限的html页面\r\n\r\n3.1 控制权限，使用perm-code指令，perm-code为资源码\r\n\r\n```html\r\n<div class=\"form-group\">\r\n    <button class=\"btn btn-default\" ng-click=\"search()\"\" perm-code=\"gdgsdgsdfg\">查询</button>\r\n</div>\r\n```\r\n\r\n3.2 数据权限，同时使用perm-code和perm-data指令，perm-code为资源码，perm-data为当前scope，在该scope上必须要有isMajorData、entityTypeName、entityId、permissionInfos等权限属性。perm-data指令同时会劫持ng-click指向的function，在点击事件执行时设置http头部缓存，之后发送的http请求会带上权限头部。\r\n\r\n```html\r\n<tr ng-repeat=\"gitrepos in reposlist\">\r\n    <td style=\"min-width: 50px;\">\r\n        <a href=\"/#/reposDetail/{{gitrepos.id}}\" perm-data=\"gitrepos\" perm-code=\"reposDetail\">详情</a>\r\n        <a ng-if=\"gitrepos.status != 'D'\"  href=\"/#/editRepos/{{gitrepos.id}}\" perm-data=\"gitrepos\" perm-code=\"editRepos\">修改</a>\r\n        <a ng-if=\"gitrepos.status != 'D'\" href=\"javascript:;\" ng-click=\"deleteRepos(gitrepos.id)\" perm-data=\"gitrepos\" perm-code=\"abandon\">废弃</a>\r\n        <a ng-if=\"gitrepos.status != 'D'\"  href=\"javascript:;\" ng-click=\"baseinfo(gitrepos.id)\" perm-data=\"gitrepos\" perm-code=\"baseInfo\">基本设置</a>\r\n    </td>\r\n</tr>\r\n```\r\n\r\n4 Json数据控制\r\n\r\n1 在对应json数据上添加resourceCode字段\r\n2 调用JsonPerm服务，传入修改过的json数据\r\n\r\n```js\r\nmenus.splice(vm.getMenusIndex(\"19\"), 0, { code: \"19-0\", name: \"可视化管理\", icon: \"fa icon-document\", state: \"Console.Visualable\", href: odincodeDeposit + '/#/visualable',resourceCode:'new_actionset1' });\r\nmenus.splice(vm.getMenusIndex(\"19-0\"), 0, { code: \"19-1\", name: \"我的步骤集\", icon: \"fa icon-document\", state: \"Console.navheadDetail.ActionSetList\", href: odincodeDeposit + '/#/actionSetList',resourceCode:'new_actionset1' });\r\n\r\nJsonPerm($scope.menus)\r\n```\r\n\r\n# Version\r\n\r\n## 0.0.13\r\n\r\n支持控制权限和数据权限",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --progress",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.24"
+}

@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-css@>=0.0.6",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-css",
+        "name": "@suning/dubhe-component-css",
+        "rawSpec": ">=0.0.6",
+        "spec": ">=0.0.6",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-css@>=0.0.6",
+  "_id": "@suning/dubhe-component-css@0.0.6",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-css",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/dubhe-component-css@>=0.0.6",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-css",
+    "name": "@suning/dubhe-component-css",
+    "rawSpec": ">=0.0.6",
+    "spec": ">=0.0.6",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-css/-/dubhe-component-css-0.0.6.tgz",
+  "_shasum": "406a49b5edfd39591cccef9a58e580abad4ff6f9",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-css@>=0.0.6",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "为每个controller自动加载同名的css文件",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "406a49b5edfd39591cccef9a58e580abad4ff6f9",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-css/-/dubhe-component-css-0.0.6.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-css",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --step",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.6"
+}

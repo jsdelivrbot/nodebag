@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-changdot@1.0.2",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-changdot",
+        "name": "@suning/dubhe-component-changdot",
+        "rawSpec": "1.0.2",
+        "spec": "1.0.2",
+        "type": "version"
+      },
+      "D:\\phoebus_V1.0.0\\phoebus\\phoebus-web\\src\\main\\frontsource"
+    ],
+    [
+      {
+        "raw": "@suning/dubhe-component-changdot@1.0.3",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-changdot",
+        "name": "@suning/dubhe-component-changdot",
+        "rawSpec": "1.0.3",
+        "spec": "1.0.3",
+        "type": "version"
+      },
+      "D:\\phoebus_V1.0.0\\phoebus\\phoebus-web\\src\\main\\frontsource"
+    ],
+    [
+      {
+        "raw": "@suning/dubhe-component-changdot@^1.0.0",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-changdot",
+        "name": "@suning/dubhe-component-changdot",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-changdot@^1.0.0",
+  "_id": "@suning/dubhe-component-changdot@1.0.4",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-changdot",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "4.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/dubhe-component-changdot@^1.0.0",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-changdot",
+    "name": "@suning/dubhe-component-changdot",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-changdot/-/dubhe-component-changdot-1.0.4.tgz",
+  "_shasum": "e518744ad02a558b58157c29faf8732374b4ff11",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-changdot@^1.0.0",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "019be6513d0ece29f3b5d7759b14fc5467df87c7",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-changdot/-/dubhe-component-changdot-1.0.2.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-changdot",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}

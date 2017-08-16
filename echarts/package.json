@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "echarts@=3.1.1",
+        "scope": null,
+        "escapedName": "echarts",
+        "name": "echarts",
+        "rawSpec": "=3.1.1",
+        "spec": "3.1.1",
+        "type": "version"
+      },
+      "D:\\phoebus_V1.3.0\\node_modules\\@suning\\dubhe-component-echarts"
+    ]
+  ],
+  "_cnpm_publish_time": 1456147053440,
+  "_from": "echarts@3.1.1",
+  "_id": "echarts@3.1.1",
+  "_inCache": true,
+  "_location": "/echarts",
+  "_nodeVersion": "5.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/echarts-3.1.1.tgz_1456147047651_0.1726064884569496"
+  },
+  "_npmUser": {
+    "name": "ecomfe",
+    "email": "ecomfe@gmail.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "echarts@=3.1.1",
+    "scope": null,
+    "escapedName": "echarts",
+    "name": "echarts",
+    "rawSpec": "=3.1.1",
+    "spec": "3.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@suning/dubhe-component-echarts"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/echarts/-/echarts-3.1.1.tgz",
+  "_shasum": "503e8cc1f192c4e2d54b9d27da6374d2628f4cc6",
+  "_shrinkwrap": null,
+  "_spec": "echarts@=3.1.1",
+  "_where": "D:\\phoebus_V1.3.0\\node_modules\\@suning\\dubhe-component-echarts",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ecomfe/echarts/issues"
+  },
+  "contributors": [
+    {
+      "name": "erik",
+      "email": "errorrik@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "zrender": "^3.0.2"
+  },
+  "description": "A powerful charting and visualization library for browser",
+  "devDependencies": {
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
+    "estraverse": "^4.1.1",
+    "etpl": "^3.0.1",
+    "optimist": "^0.6.1",
+    "uglify-js": "^2.6.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "503e8cc1f192c4e2d54b9d27da6374d2628f4cc6",
+    "size": 3594364,
+    "noattachment": false,
+    "tarball": "http://snpm.cnsuning.com/echarts/-/echarts-3.1.1.tgz"
+  },
+  "gitHead": "3cbfba5624071d01c6e5691eede1706f3e96408e",
+  "homepage": "http://echarts.baidu.com/",
+  "keywords": [
+    "visualization",
+    "canvas"
+  ],
+  "maintainers": [
+    {
+      "name": "ecomfe",
+      "email": "ecomfe@gmail.com"
+    }
+  ],
+  "name": "echarts",
+  "optionalDependencies": {},
+  "publish_time": 1456147053440,
+  "readme": "# ECharts\n\n<a href=\"http://echarts.baidu.com\">\n    <img style=\"vertical-align: top;\" src=\"./asset/logo.png?raw=true\" alt=\"logo\" height=\"50px\">\n</a>\n\nECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on <a href=\"https://github.com/ecomfe/zrender\">zrender</a>, which is a whole new lightweight canvas library.\n\n## Get echarts\n\n+ Download on [echarts.baidu.com](http://echarts.baidu.com/download.html)\n+ `npm install echarts --save`\n\n## Docs\n\n+ [Tutorial](http://echarts.baidu.com/tutorial.html)\n+ [API](http://echarts.baidu.com/api.html)\n+ [Option Manual](http://echarts.baidu.com/option.html)\n\nWe will release the English doc soon:)\n\n## License\nCopyright (c) 2013, Baidu Inc.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those\nof the authors and should not be interpreted as representing official policies,\neither expressed or implied, of the FreeBSD Project.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomfe/echarts.git"
+  },
+  "scripts": {
+    "prepublish": "node build/amd2common.bundle.js"
+  },
+  "version": "3.1.1"
+}

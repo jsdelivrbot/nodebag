@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-navbar@>=0.0.19",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-navbar",
+        "name": "@suning/cd-navbar",
+        "rawSpec": ">=0.0.19",
+        "spec": ">=0.0.19",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-navbar@>=0.0.19",
+  "_id": "@suning/cd-navbar@0.0.20",
+  "_inCache": true,
+  "_location": "/@suning/cd-navbar",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-navbar@>=0.0.19",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-navbar",
+    "name": "@suning/cd-navbar",
+    "rawSpec": ">=0.0.19",
+    "spec": ">=0.0.19",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-navbar/-/cd-navbar-0.0.20.tgz",
+  "_shasum": "3133b84f43e11c92af3d9dcbe328e19cdf3afdbd",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-navbar@>=0.0.19",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "cd navbar",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "3133b84f43e11c92af3d9dcbe328e19cdf3afdbd",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-navbar/-/cd-navbar-0.0.20.tgz"
+  },
+  "gitHead": "5d8b82a783d66b6630ec5f016ef3d88fb7c76d58",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-navbar",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "del lib /Q&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& copy .\\src\\*.less .\\lib\\&& copy .\\src\\*.css .\\lib\\",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --progress",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.20"
+}

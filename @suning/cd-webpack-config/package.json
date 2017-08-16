@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-webpack-config@>=0.0.7",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-webpack-config",
+        "name": "@suning/cd-webpack-config",
+        "rawSpec": ">=0.0.7",
+        "spec": ">=0.0.7",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-webpack-config@>=0.0.7",
+  "_id": "@suning/cd-webpack-config@0.0.13",
+  "_inCache": true,
+  "_location": "/@suning/cd-webpack-config",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-webpack-config@>=0.0.7",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-webpack-config",
+    "name": "@suning/cd-webpack-config",
+    "rawSpec": ">=0.0.7",
+    "spec": ">=0.0.7",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-webpack-config/-/cd-webpack-config-0.0.13.tgz",
+  "_shasum": "cf4977188b1a9ba272811f6f251a4aed7ce4cec3",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-webpack-config@>=0.0.7",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "bin": {
+    "cd-webpack-config": "./bin/config.js"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "dist": {
+    "shasum": "cf4977188b1a9ba272811f6f251a4aed7ce4cec3",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-webpack-config/-/cd-webpack-config-0.0.13.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-webpack-config",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "del lib /Q&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& copy .\\src\\*.css .\\lib",
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.13"
+}

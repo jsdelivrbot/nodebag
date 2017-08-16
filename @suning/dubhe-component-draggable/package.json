@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/dubhe-component-draggable@^1.0.0",
+        "scope": "@suning",
+        "escapedName": "@suning%2fdubhe-component-draggable",
+        "name": "@suning/dubhe-component-draggable",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/dubhe-component-draggable@>=1.0.0 <2.0.0",
+  "_id": "@suning/dubhe-component-draggable@1.0.0",
+  "_inCache": true,
+  "_location": "/@suning/dubhe-component-draggable",
+  "_nodeVersion": "4.5.0",
+  "_npmUser": {},
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/dubhe-component-draggable@^1.0.0",
+    "scope": "@suning",
+    "escapedName": "@suning%2fdubhe-component-draggable",
+    "name": "@suning/dubhe-component-draggable",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fdubhe-component-draggable/-/dubhe-component-draggable-1.0.0.tgz",
+  "_shasum": "d90d9a798a6317c44215ff495c67e8aa2cfcf5d2",
+  "_shrinkwrap": null,
+  "_spec": "@suning/dubhe-component-draggable@^1.0.0",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "qiaoliang"
+  },
+  "dependencies": {},
+  "description": "suning angular web frame dubhe component draggable",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "d90d9a798a6317c44215ff495c67e8aa2cfcf5d2",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fdubhe-component-draggable/-/dubhe-component-draggable-1.0.0.tgz"
+  },
+  "keywords": [
+    "angular",
+    "dubhe",
+    "draggable"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@suning/dubhe-component-draggable",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "rm -rf lib&& mkdir lib&& mkdir lib/draggable&& babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& cp src/draggable/draggable.css lib/draggable/",
+    "dev": "export NODE_ENV=development&& webpack-dev-server --debug --display-error-details --history-api-fallback --inline --hot --progress",
+    "start": "npm run dev",
+    "test": "set NODE_ENV=test&& karma start"
+  },
+  "version": "1.0.0"
+}

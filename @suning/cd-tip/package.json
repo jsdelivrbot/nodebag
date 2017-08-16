@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@suning/cd-tip@>=0.0.14",
+        "scope": "@suning",
+        "escapedName": "@suning%2fcd-tip",
+        "name": "@suning/cd-tip",
+        "rawSpec": ">=0.0.14",
+        "spec": ">=0.0.14",
+        "type": "range"
+      },
+      "D:\\phoebus_V1.3.0"
+    ]
+  ],
+  "_from": "@suning/cd-tip@>=0.0.14",
+  "_id": "@suning/cd-tip@0.0.16",
+  "_inCache": true,
+  "_location": "/@suning/cd-tip",
+  "_nodeVersion": "6.10.3",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@suning/cd-tip@>=0.0.14",
+    "scope": "@suning",
+    "escapedName": "@suning%2fcd-tip",
+    "name": "@suning/cd-tip",
+    "rawSpec": ">=0.0.14",
+    "spec": ">=0.0.14",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://snpm.cnsuning.com/@suning%2fcd-tip/-/cd-tip-0.0.16.tgz",
+  "_shasum": "a20c942b6565bccd01eee2bd07303ae27b5a64c4",
+  "_shrinkwrap": null,
+  "_spec": "@suning/cd-tip@>=0.0.14",
+  "_where": "D:\\phoebus_V1.3.0",
+  "author": {
+    "name": "yanjie"
+  },
+  "dependencies": {},
+  "description": "cd iframe directive for debhe",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x"
+  },
+  "dist": {
+    "shasum": "a20c942b6565bccd01eee2bd07303ae27b5a64c4",
+    "tarball": "http://snpm.cnsuning.com/@suning%2fcd-tip/-/cd-tip-0.0.16.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@suning/cd-tip",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/ --source-maps&& copy .\\src\\*.css .\\lib\\",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.16"
+}
